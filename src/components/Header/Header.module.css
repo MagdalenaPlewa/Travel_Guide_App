@@ -1,0 +1,27 @@
+.appBar{
+    background-color: rgb(114, 86, 143);
+}
+
+.exploreBox{
+    display: flex;
+    align-items: center;
+}
+
+.suggestionContainer{
+    position:  absolute ;
+    display: block;
+    background-color:  #c7acdbe6;
+    z-index: 1;
+    padding:  0 2px;
+    margin:  2px 0;
+}
+
+.suggestionContainer_invisible{
+    display: none;
+}
+
+.suggestiovDiv:hover{
+    background-color: #72448f;
+    color: rgb(255, 255, 255) !important
+}
+
